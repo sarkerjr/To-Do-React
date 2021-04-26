@@ -1,0 +1,24 @@
+.ItemContainer {
+    background-color: rgb(45, 111, 172);
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    min-height: 70px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px 1px #999;
+    transition: 0.3s;
+}
+
+.ItemContainer:hover {
+    box-shadow: 6px 6px 4px 2px #999;
+    transform: scale(1.05);
+}
+
+.ItemBody {
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-family: sans;
+}

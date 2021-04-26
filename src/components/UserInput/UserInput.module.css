@@ -1,0 +1,55 @@
+.Container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InputTextLabel, InputText {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.InputTextLabel {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.InputText {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.InputText:focus {
+    border-color: #5dc180;
+    outline: 2px solid transparent;
+}
+
+
+/* For Button */
+.Button {
+    color: black;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px 1px #999;
+    transition: all 0.3s;
+}
+
+.Button:hover {
+    transform: scale(1.05);
+}
+
+.Button:active {
+    transform: scale(0.93);
+}
